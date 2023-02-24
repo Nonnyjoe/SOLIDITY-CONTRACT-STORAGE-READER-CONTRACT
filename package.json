@@ -1,0 +1,23 @@
+{
+  "name": "solidity-project-week-day-3",
+  "version": "1.0.0",
+  "description": "A simple smart contract to read the values stored in 5 diifernt onchain contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nonnyjoe/SOLIDITY-CONTRACT-STORAGE-READER-CONTRACT.git"
+  },
+  "author": "IDOGWU CHINONSO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nonnyjoe/SOLIDITY-CONTRACT-STORAGE-READER-CONTRACT/issues"
+  },
+  "homepage": "https://github.com/Nonnyjoe/SOLIDITY-CONTRACT-STORAGE-READER-CONTRACT#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.7"
+  }
+}
