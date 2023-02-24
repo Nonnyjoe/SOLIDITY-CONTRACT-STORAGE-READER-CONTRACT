@@ -21,6 +21,7 @@
     "hardhat": "^2.12.7"
   },
   "dependencies": {
+    "convert-hex": "^0.1.0",
     "web3": "^1.8.2"
   }
 }

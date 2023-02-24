@@ -1,9 +1,8 @@
 import { ethers, network } from "hardhat";
-import { time } from "@nomicfoundation/hardhat-network-helpers";
-import hre from "hardhat";
-import { BigNumber } from "ethers";
 var Web3 = require('web3');
 var web3 = new Web3("https://eth-mainnet.g.alchemy.com/v2/kNgqkSwSMIQGUQ_wRhjXrWuaB4WoBfGe");
+var convertHex = require('convert-hex');
+
 async function main() {
     const Dai_Ticket = "0x334cBb5858417Aee161B53Ee0D5349cCF54514CF";
     const usdt = "0xdAC17F958D2ee523a2206206994597C13D831ec7";
@@ -20,6 +19,7 @@ async function main() {
     console.log(contents);
     const contentsNum = await HexToNum.hexToNum(contents);
     console.log(contentsNum);
+   // console.log(convertHex.hexToBytes(contentsNum));
 
     console.log(`READING FROM UNISWAP`);
     const contents2 = await web3.eth.getStorageAt(Uniswap, 0);
