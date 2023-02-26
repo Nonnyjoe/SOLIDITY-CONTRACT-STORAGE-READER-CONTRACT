@@ -6,4 +6,6 @@ contract readStorage {
         return uint256(hexNum);
     }
 
+    
+
 }
